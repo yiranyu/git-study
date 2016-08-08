@@ -1,73 +1,74 @@
-#gitÑ§Ï°±Ê¼Ç
+#gitå­¦ä¹ ç¬”è®°
 
-GitÊÇÒ»ÖÖ°æ±¾¿ØÖÆÏµÍ³£¬GithubÊÇÒ»¸öÍøÕ¾£¬¸øÓÃ»§Ìá¹©git·şÎñ¡£
+Gitæ˜¯ä¸€ç§ç‰ˆæœ¬æ§åˆ¶ç³»ç»Ÿï¼ŒGithubæ˜¯ä¸€ä¸ªç½‘ç«™ï¼Œç»™ç”¨æˆ·æä¾›gitæœåŠ¡ã€‚
 
-###1. Git°²×°Éè¶¨
-ÏÂÔØ£ºwindows.gitHub.com
-Éè¶¨£º
-	git --version  #È·¶¨ÊÇ·ñ³É¹¦°²×°Git
-	git config --global user.name "<Your Name>"  #Éè¶¨Ãû×Ö
-	git config --global user.email "<Youremail@example.com>"  #Éè¶¨ÓÊÏä
-	git config --global user.username <Your github Name>  #ÄãµÄGitHubÕËºÅÃû
+###1. Gitå®‰è£…è®¾å®š
+ä¸‹è½½ï¼šwindows.gitHub.com
+è®¾å®šï¼š
+	git --version  #ç¡®å®šæ˜¯å¦æˆåŠŸå®‰è£…Git
+	git config --global user.name "<Your Name>"  #è®¾å®šåå­—
+	git config --global user.email "<Youremail@example.com>"  #è®¾å®šé‚®ç®±
+	git config --global user.username <Your github Name>  #ä½ çš„GitHubè´¦å·å
 
-###2. ÔÚ×Ô¼ºµÄµçÄÔÉÏ½¨Á¢Ò»¸ö³ÌĞò¿â£¨repository£©
-Ò»¸örepository¾ÍÊÇÒ»¸öÏîÄ¿£¬¿ÉÒÔÏëÏó³ÉÊÇ°üº¬ËùÓĞÏà¹ØÎÄµµµÄÎÄ¼ş¼Ğ.
+###2. åœ¨è‡ªå·±çš„ç”µè„‘ä¸Šå»ºç«‹ä¸€ä¸ªç¨‹åºåº“ï¼ˆrepositoryï¼‰
+ä¸€ä¸ªrepositoryå°±æ˜¯ä¸€ä¸ªé¡¹ç›®ï¼Œå¯ä»¥æƒ³è±¡æˆæ˜¯åŒ…å«æ‰€æœ‰ç›¸å…³æ–‡æ¡£çš„æ–‡ä»¶å¤¹.
 
-	mkdir test  #ĞÂ½¨ÎÄ¼ş¼Ğ£¬ÎªÁË·½±ã£¬½¨ÒéÃüÃûÎªÏîÄ¿Ãû³Æ
-	cd test  #½øÈëÎÄ¼ş¼Ğ
-	git init  #°ÑÕâ¸öÎÄ¼ş¼ĞÉè¶¨³ÉÒ»¸ögitÏîÄ¿
-	git status  #È·¶¨ÏîÄ¿ÊÇ·ñÒÑ¾­ÊÇ¸ögit repository
+	mkdir test  #æ–°å»ºæ–‡ä»¶å¤¹ï¼Œä¸ºäº†æ–¹ä¾¿ï¼Œå»ºè®®å‘½åä¸ºé¡¹ç›®åç§°
+	cd test  #è¿›å…¥æ–‡ä»¶å¤¹
+	git init  #æŠŠè¿™ä¸ªæ–‡ä»¶å¤¹è®¾å®šæˆä¸€ä¸ªgité¡¹ç›®
+	git status  #ç¡®å®šé¡¹ç›®æ˜¯å¦å·²ç»æ˜¯ä¸ªgit repository
 
-###3. ÔÚÏîÄ¿ÖĞ´´½¨Ò»¸öĞÂÎÄ¼ş
-¼ÙÉèÒÑ´´½¨ºÃÒ»¸ötest.txtÎÄ¼ş£¬ÖÕ¶Ë½øÈëtestÏîÄ¿Àï¡£
+###3. åœ¨é¡¹ç›®ä¸­åˆ›å»ºä¸€ä¸ªæ–°æ–‡ä»¶
+å‡è®¾å·²åˆ›å»ºå¥½ä¸€ä¸ªtest.txtæ–‡ä»¶ï¼Œç»ˆç«¯è¿›å…¥testé¡¹ç›®é‡Œã€‚
 
-	git status  #²é¿´ÊÇ·ñÓĞËù¸Ä±ä
-	git add test.txt  #ĞÂÔöÏëÌá½»µÄÎÄ¼ş
-	git commit -m "<Your commit message>"  #Ìá½»µ½repository£¬²¢¸½¼ÓÒ»¸ö¼ò¶ÌµÄËµÃ÷
+	git status  #æŸ¥çœ‹æ˜¯å¦æœ‰æ‰€æ”¹å˜
+	git add test.txt  #æ–°å¢æƒ³æäº¤çš„æ–‡ä»¶
+	git commit -m "<Your commit message>"  #æäº¤åˆ°repositoryï¼Œå¹¶é™„åŠ ä¸€ä¸ªç®€çŸ­çš„è¯´æ˜
 
-###4. ½«ÏîÄ¿´«µ½GitHub£¬½«´æ´¢ÔÚGitHubµÄÖ÷»úÉÏ£¬Õâ¸öÏîÄ¿¾Í³ÉÁËÔ¶¶Ë³ÌĞò¿â£¨remote repository£©
-Ê×ÏÈµ½github.comĞÂ½¨Ò»¸örepository£¨Ãû³Æ×îºÃºÍµçÄÔÉÏµÄ³ÌĞòÃûÒ»Ñù£©.
-¿ªÔ´ÏîÄ¿ÖĞ¾­³£Óöµ½µÄÎÄµµ£º
+###4. å°†é¡¹ç›®ä¼ åˆ°GitHubï¼Œå°†å­˜å‚¨åœ¨GitHubçš„ä¸»æœºä¸Šï¼Œè¿™ä¸ªé¡¹ç›®å°±æˆäº†è¿œç«¯ç¨‹åºåº“ï¼ˆremote repositoryï¼‰
+é¦–å…ˆåˆ°github.comæ–°å»ºä¸€ä¸ªrepositoryï¼ˆåç§°æœ€å¥½å’Œç”µè„‘ä¸Šçš„ç¨‹åºåä¸€æ ·ï¼‰.
+å¼€æºé¡¹ç›®ä¸­ç»å¸¸é‡åˆ°çš„æ–‡æ¡£ï¼š
 
-	readme  #Í¨³£ÓÃÀ´½âÊÍ³ÌĞòµÄ¹¦ÄÜ¡¢Ê¹ÓÃ·½·¨ÒÔ¼°ÈçºÎ¹±Ï×£¨ÓĞÊ±»áÓÃCONTRIBUTING.mdÀ´ËµÃ÷£©
-	.gitignore  #ÒªºöÂÔµÄµµ°¸Çåµ¥£¬¸æËßGitÔÚ×ö°æ±¾¿ØÖÆ¼ÇÂ¼Ê±²»ÒªÀí»áÕâĞ©µµ°¸
-	License  #Öø×÷ÉùÃ÷
-	git remote add <remote name>  #ĞÂÔöremoteÁ¬½Ó
-	git remote set-url <remote name>  #¸øÒ»¸öremoteÉè¶¨Î»Ö·£¨Window£©
-	git remote add origin <URL from GitHub>  #°ÑµçÄÔÉÏµÄrepository ºÍremote  repositoryÁ¬½ÓÔÚÒ»Æğ£¬ÔÚÔ¶¶ËµÄÄÇ·İ¾Í³ÆÎªorigin
-	git remote -v  #²é¿´ÓĞÄÄĞ©remote
-	git push origin master  #°Ñmaster·ÖÖ§µÄ³ÌĞò´«µ½originÔ¶¶Ë
+	readme  #é€šå¸¸ç”¨æ¥è§£é‡Šç¨‹åºçš„åŠŸèƒ½ã€ä½¿ç”¨æ–¹æ³•ä»¥åŠå¦‚ä½•è´¡çŒ®ï¼ˆæœ‰æ—¶ä¼šç”¨CONTRIBUTING.mdæ¥è¯´æ˜ï¼‰
+	.gitignore  #è¦å¿½ç•¥çš„æ¡£æ¡ˆæ¸…å•ï¼Œå‘Šè¯‰Gitåœ¨åšç‰ˆæœ¬æ§åˆ¶è®°å½•æ—¶ä¸è¦ç†ä¼šè¿™äº›æ¡£æ¡ˆ
+	License  #è‘—ä½œå£°æ˜
+	git remote add <remote name>  #æ–°å¢remoteè¿æ¥
+	git remote set-url <remote name>  #ç»™ä¸€ä¸ªremoteè®¾å®šä½å€ï¼ˆWindowï¼‰
+	git remote add origin <URL from GitHub>  #æŠŠç”µè„‘ä¸Šçš„repository å’Œremote  repositoryè¿æ¥åœ¨ä¸€èµ·ï¼Œåœ¨è¿œç«¯çš„é‚£ä»½å°±ç§°ä¸ºorigin
+	git remote -v  #æŸ¥çœ‹æœ‰å“ªäº›remote
+	git push origin master  #æŠŠmasteråˆ†æ”¯çš„ç¨‹åºä¼ åˆ°originè¿œç«¯
 
-ÍøÖ·£ºhttp://jlord.us/git-it/index.html
+ç½‘å€ï¼šhttp://jlord.us/git-it/index.html
 
 ###5. Forks And Clones
-Forks£¨¸±±¾£©£¬ÏîÄ¿ºÏ×÷¡£
-µ½ÏîÄ¿ËùÔÚgithub.comÎ»ÖÃ£¬µã»÷"fork"°´Å¥£¬È»ºóÄãµÄÕËºÅÖĞ¾Í³öÏÖÁËÒ»·İÏîÄ¿¸±±¾£¬¸´ÖÆÏîÄ¿Á´½ÓÖÕ¶ËÇĞ»»µ½¹¤×÷Çø¼ä¡£
+Forksï¼ˆå‰¯æœ¬ï¼‰ï¼Œé¡¹ç›®åˆä½œã€‚
+åˆ°é¡¹ç›®æ‰€åœ¨github.comä½ç½®ï¼Œç‚¹å‡»"fork"æŒ‰é’®ï¼Œç„¶åä½ çš„è´¦å·ä¸­å°±å‡ºç°äº†ä¸€ä»½é¡¹ç›®å‰¯æœ¬ï¼Œå¤åˆ¶é¡¹ç›®é“¾æ¥ç»ˆç«¯åˆ‡æ¢åˆ°å·¥ä½œåŒºé—´ã€‚
 
-	git clone <URL from GitHib>  #ÏÂÔØ£¨Clone£©ÏîÄ¿¡£²»ĞèÒªÊÂÏÈ½¨Á¢ÏîÄ¿Ãû³Æ
-	git remote add upstream <Origin URL>  #¸øÔ­Ê¼µÄrepositoryÃüÃûÎªupstream£¬ÔÚÔ­Ê¼ÏîÄ¿±ä¸üÊ±pull
+	git clone <URL from GitHib>  #ä¸‹è½½ï¼ˆCloneï¼‰é¡¹ç›®ã€‚ä¸éœ€è¦äº‹å…ˆå»ºç«‹é¡¹ç›®åç§°
+	git remote add upstream <Origin URL>  #ç»™åŸå§‹çš„repositoryå‘½åä¸ºupstreamï¼Œåœ¨åŸå§‹é¡¹ç›®å˜æ›´æ—¶pull
 
 ###6. branch
-branchÓÃÀ´¸ôÀë½ø¶È.
+branchç”¨æ¥éš”ç¦»è¿›åº¦.
 
-	git branch <branch name>  #ĞÂ½¨Ò»¸ö·ÖÖ§¡£Git»á°ÑÄ¿Ç°branchÉÏËùÓĞµÄÎÄ¼ş¿½±´µ½ĞÂbranchÉÏ
-	git checkout <branch name>  #½øÈëbranch
+	git branch <branch name>  #æ–°å»ºä¸€ä¸ªåˆ†æ”¯ã€‚Gitä¼šæŠŠç›®å‰branchä¸Šæ‰€æœ‰çš„æ–‡ä»¶æ‹·è´åˆ°æ–°branchä¸Š
+	git checkout <branch name>  #è¿›å…¥branch
 
-###7. Collaborators ĞÂÔöÏîÄ¿±à¼­È¨ÏŞÊÔÓÃ×°
-µ½repositoryµÄGitHubÒ³Ãæ£¬µã»÷ÓÒ±ßµÄ"Settings"£¬Ñ¡Ôñ"Collaborators"·ÖÒ³£¬ÊäÈëÕËºÅÌí¼Ó¡£
+###7. Collaborators æ–°å¢é¡¹ç›®ç¼–è¾‘æƒé™è¯•ç”¨è£…
+åˆ°repositoryçš„GitHubé¡µé¢ï¼Œç‚¹å‡»å³è¾¹çš„"Settings"ï¼Œé€‰æ‹©"Collaborators"åˆ†é¡µï¼Œè¾“å…¥è´¦å·æ·»åŠ ã€‚
 
 ###8. Pull requests
-½«ÄãËùĞŞ¸ÄµÄforkÎÄµµ·¢¸øÔ­±¾µÄ×÷Õß£¬Ï£Íû×÷ÕßÊÕÈ¡¡£ÔÚrepositoryµÄGitHubÒ³Ãæ£¬µã»÷ÓÒ±ßµÄ"Pull request"£¬°´²½Öè½øĞĞ¼´¿É¡£
-µ±pull request ³É¹¦ºó£¬¿ÉÒÔ°ÉforkºÍÔ­Ê¼µÄrepositoryÍ¬²½¡£
+å°†ä½ æ‰€ä¿®æ”¹çš„forkæ–‡æ¡£å‘ç»™åŸæœ¬çš„ä½œè€…ï¼Œå¸Œæœ›ä½œè€…æ”¶å–ã€‚åœ¨repositoryçš„GitHubé¡µé¢ï¼Œç‚¹å‡»å³è¾¹çš„"Pull request"ï¼ŒæŒ‰æ­¥éª¤è¿›è¡Œå³å¯ã€‚
+å½“pull request æˆåŠŸåï¼Œå¯ä»¥å§forkå’ŒåŸå§‹çš„repositoryåŒæ­¥ã€‚
 
-git checkout gh-pages  #°Ñ×Ô¼ºµÄ·ÖÖ§merge½øÖ÷ÒªµÄbranch£¨gh-pages£©¡£
-×¢ÒâÊ×ÏÈÒª½øÈëÏëÒªmergeµÄ·ÖÖ§.
+git checkout gh-pages  #æŠŠè‡ªå·±çš„åˆ†æ”¯mergeè¿›ä¸»è¦çš„branchï¼ˆgh-pagesï¼‰ã€‚
+æ³¨æ„é¦–å…ˆè¦è¿›å…¥æƒ³è¦mergeçš„åˆ†æ”¯.
 
-	git merge <branch name>  #mergeÄãµÄ·ÖÖ§½øÀ´
-	git branch -d <branch name>  #°ÑÒÑ¾­mergedµÄbranchÉ¾³ı
-	git push <remote name> --delete <branch name>  #°Ñbranch´ÓGitHubÉÏµÄfork repositoryÖĞÉ¾³ı
-	git pull upstream gh-pages  #´ÓÔ­ÏîÄ¿ÊÕÈ¡»ØÀ´
+	git merge <branch name>  #mergeä½ çš„åˆ†æ”¯è¿›æ¥
+	git branch -d <branch name>  #æŠŠå·²ç»mergedçš„branchåˆ é™¤
+	git push <remote name> --delete <branch name>  #æŠŠbranchä»GitHubä¸Šçš„fork repositoryä¸­åˆ é™¤
+	git pull upstream gh-pages  #ä»åŸé¡¹ç›®æ”¶å–å›æ¥
 
-
+###å¸¸è§é—®é¢˜
+å½“æœ¬åœ°ä»“åº“æ²¡æœ‰ä¸è¿œç¨‹ä»“åº“åŒæ­¥æ—¶ï¼Œä¹Ÿå°±æ˜¯è¿œç¨‹ä»“åº“ä¸­æœ‰çš„æ–‡ä»¶ï¼Œåœ¨æœ¬åœ°æ²¡æœ‰ã€‚æ¯”å¦‚åˆšæ–°å»ºçš„ä¸€ä¸ªä»“åº“é»˜è®¤ç”ŸæˆREADMEæ–‡ä»¶ï¼Œè€Œåœ¨æœ¬åœ°æ²¡æœ‰ï¼Œè¿™æ˜¯æ— æ³•pushçš„ã€‚éœ€è¦å…ˆpullä»è¿œç¨‹è·å–æœ€æ–°ç‰ˆæœ¬å¹¶mergeåˆ°æœ¬åœ°ï¼Œç„¶åæ‰æ‰§è¡Œpushã€‚
 
 
